@@ -1,0 +1,141 @@
+body{
+
+    margin:0;
+
+    min-height:100vh;
+
+    background:
+    linear-gradient(
+        rgba(255,255,255,0.20),
+        rgba(255,255,255,0.20)
+    ),
+    url("Photos/letter_background.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    background-attachment:fixed;
+
+    font-family:'Quicksand',sans-serif;
+
+    overflow-y:auto;
+}
+
+.paper{
+
+    width:750px;
+
+    max-width:90%;
+
+    margin:60px auto;
+
+    background:#faddea;
+
+    padding:50px;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 15px 40px rgba(0,0,0,0.2);
+
+    border:2px solid #f3d7c3;
+}
+
+.paper h1{
+
+    text-align:center;
+
+    font-family:'Alex Brush',cursive;
+
+    font-size: 50px;
+
+    font-weight:normal;
+
+    color:#d63384;
+
+    margin-top:0;
+
+    margin-bottom:35px;
+
+    letter-spacing:1px;
+}
+
+#letter{
+
+    font-size:22px;
+
+    color:#444;
+
+    line-height:1.9;
+
+    min-height:300px;
+
+    white-space:pre-wrap;
+}
+
+#signature{
+
+    margin-top:40px;
+
+    text-align:right;
+
+    font-size:24px;
+
+    color:#d63384;
+
+    opacity:0;
+
+    transition:opacity 1s ease;
+}
+
+#signature span{
+
+    font-family:'Alex Brush',cursive;
+
+    font-size:50px;
+
+    color:#d63384;
+}
+
+#nextSection{
+
+    text-align:center;
+
+    margin-top:60px;
+
+    opacity:0;
+
+    transition:opacity 1s ease;
+}
+
+#lastButton{
+
+    background:#d63384;
+
+    color:white;
+
+    border:none;
+
+    padding:15px 35px;
+
+    font-size:18px;
+
+    border-radius:50px;
+
+    cursor:pointer;
+
+    font-family:'Quicksand',sans-serif;
+
+    transition:0.3s ease;
+}
+
+#lastButton:hover{
+
+    background:#b0256c;
+
+    transform:scale(1.05);
+
+}

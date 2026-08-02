@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Memories ❤️</title>
+
+    <link rel="stylesheet" href="slideshow.css">
+
+</head>
+
+<body>
+
+    <audio id="bgMusic" autoplay loop>
+
+    <source
+    src="Music/UYIRE.m4r"
+    type="audio/mpeg">
+
+</audio>
+
+    <div class="card">
+
+        <h2 id="counter">
+            ❤️ Memory 1 of 10
+        </h2>
+
+        <img
+            id="slideImage"
+            src="Photos/1.jpg"
+            class="photo"
+        >
+
+        <p id="caption">
+            Little did this tiny boy know how special he'd become❤️
+        </p>
+
+        <div class="buttons">
+
+    <button onclick="previousPhoto()">
+        ◀ Previous
+    </button>
+
+    <button id="nextButton" onclick="nextPhoto()">
+    Next ➜
+    </button>
+
+</div>
+
+    </div>
+
+    <script src="slideshow.js"></script>
+
+</body>
+
+</html>
